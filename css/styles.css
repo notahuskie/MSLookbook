@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Henkel';
+    src: url(Henkel-GT-Flexa-Bold-Italic.ttf);
+  }
 *{
     margin: 0;
     padding: 0;
@@ -7,19 +11,40 @@
 background-color: rgba(37, 35, 35, 0.7);
 
 backdrop-filter: blur(7px);
-box-shadow: 0px 5px 5px rgb(41, 40, 40);
+box-shadow: 0px 5px 5px rgb(0, 0, 0);
 }
 
 .nav-link{
    color: white; 
 }
 
+b{
+    font-family: 'Henkel';
+}
+
+
+
 .img-fluid{
-width: 100%;
+width: 1440px;
+filter: brightness(0.5);
 }
 
 div.gbs{
 background-color:#bdcdda;
+}
+
+.centered{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.homepage{
+    position: relative;
+    text-align: center;
+   
 }
 
 
