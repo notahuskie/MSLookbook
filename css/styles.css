@@ -1,32 +1,87 @@
 @font-face {
-    font-family: 'Henkel';
+    font-family: 'Henkel Bold italic';
     src: url(Henkel-GT-Flexa-Bold-Italic.ttf);
   }
+
+  @font-face {
+    font-family: 'Henkel Thin';
+    src: url(Henkel-GT-Flexa-Thin.ttf);
+  }
+
+  @font-face {
+    font-family: 'Bold Fintia';
+    src: url(Bold\ Fintia\ Regular.otf);
+  }
+
+  @font-face {
+    font-family: 'Henkel Black';
+    src: url(Henkel-GT-Flexa-Black.ttf);
+  }
+
+
+
+@font-face {
+    font-family: 'moulpali';
+    src: url(Moulpali-Regular.ttf);
+}
+
+ 
 *{
     margin: 0;
     padding: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
 .navbar{
 background-color: rgba(37, 35, 35, 0.7);
 
 backdrop-filter: blur(7px);
-box-shadow: 0px 5px 5px rgb(0, 0, 0);
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.555);
 }
 
 .nav-link{
    color: white; 
+   font-family:'moulpali';
 }
 
-b{
-    font-family: 'Henkel';
+.hptext{
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.678);
+font-size: 60px;
+}
+span.motto{
+    font-family: 'Bold Fintia';
+    color: #e1000f;
+}
+span{
+    font-family: 'Henkel Thin';
 }
 
 
-
-.img-fluid{
-width: 1440px;
+.img-home{
+width: 100%;
 filter: brightness(0.5);
+}
+
+.about-us{
+    font-family: 'Henkel Black';
+    font-size: 47px;
+    color: #e1000f;
+}
+
+.about-us-desc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    font-size: 20px;
+    padding: 0px 50px;
+    
 }
 
 div.gbs{
@@ -47,6 +102,37 @@ position: absolute;
    
 }
 
+.section-title{
+    margin-top: 106px;
+    margin-bottom: 106px;
+
+}
+
+
+.title-bold{
+    font-family:'Henkel Black' ;
+    color: #e1000f;
+}
+.title-thin{
+    font-family: 'Henkel Thin';
+}
+.msdesc{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cards{
+    margin-bottom: 49px;
+}
+
+.card-img-top{
+    width: 317px;
+    height: 254px;
+    object-fit: cover;
+}
 
   
-  
+footer{
+    margin-top: 106px;
+}
